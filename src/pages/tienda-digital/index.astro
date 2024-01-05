@@ -1,11 +1,535 @@
 ---
-import Layout from "../../layouts/Layout.astro"
+import Layout from '../../layouts/Layout.astro'
 ---
 
 <Layout title="Tienda Digital | DigitalGrit">
-    
+    <main>
+        <!-- HEADER
+		================================================== -->
+        <section class="section section-top section-full">
+            <!-- Cover -->
+            <div
+                class="bg-cover"
+                style="background-image: url(/DigitalGrit/assets/img/01.jpg);"
+            >
+            </div>
+
+            <!-- Overlay -->
+            <div class="bg-overlay"></div>
+            <!-- Triangles -->
+            <div
+                class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"
+            >
+            </div>
+            <div
+                class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"
+            >
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-8 col-lg-7">
+                        <!-- Preheading -->
+                        <p
+                            class="font-weight-medium text-center text-xs text-uppercase text-white text-muted"
+                            data-toggle="animation"
+                            data-animation="fadeUp"
+                            data-animation-order="0"
+                            data-animation-trigger="load"
+                        >
+                            By GeronimoGc
+                        </p>
+
+                        <!-- Heading -->
+                        <h1
+                            class="text-white text-center mb-4"
+                            data-toggle="animation"
+                            data-animation="fadeUp"
+                            data-animation-order="1"
+                            data-animation-trigger="load"
+                        >
+                            Tienda Digital
+                        </h1>
+
+                        <!-- Subheading -->
+                        <p
+                            class="lead text-white text-muted text-center mb-5"
+                            data-toggle="animation"
+                            data-animation="fadeUp"
+                            data-animation-order="2"
+                            data-animation-trigger="load"
+                        >
+                            DigitalGrit, tu solución integral para equipo
+                            informático y más allá. ¡Ofrecemos excepcionales
+                            piezas de computadora Sumérgete en nuestra tienda
+                            para explorar, o aprende más sobre nosotros a
+                            continuación.
+                        </p>
+                    </div>
+                </div>
+                <!-- / .row -->
+            </div>
+            <!-- / .container -->
+        </section>
+        <!-- Catalogo
+		================================================== -->
+        <section class="section bg-dark">
+            <!-- Line -->
+            <div class="line line-top"></div>
+
+            <!-- Triangles -->
+            <div
+                class="bg-triangle bg-triangle-light bg-triangle-top bg-triangle-left"
+            >
+            </div>
+            <div
+                class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"
+            >
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6">
+                        <!-- Heading -->
+                        <h2 class="text-center mb-4">Tienda Digital</h2>
+
+                        <!-- Subheading -->
+                        <p class="text-muted text-center mb-5">
+                            Bienvenido a DigitalGrit donde encontrarás todo lo
+                            que necesitas para armar o mejorar tu computador.
+                            Tenemos un amplio catálogo de componentes de las
+                            mejores marcas y al mejor precio. Tarjetas gráficas,
+                            procesadores, memorias, discos duros, fuentes de
+                            poder, gabinetes y mucho más. Visita nuestra Seccion
+                            de Tienda Digital y descubre todo lo que tenemos
+                            para ti. DigitalGrit, Tu socio en el mundo digital.
+                        </p>
+                    </div>
+                </div>
+                <!-- / .row -->
+                <div class="row">
+                    <div class="col-md-4 border border-white">
+                        <h6 class="text-primary">almacenamiento</h6>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/05.jpg"
+                                            alt="almacenamiento HDD"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            HDD
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                            <div class="col-6">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/06.jpg"
+                                            alt="almacenamiento SSD"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            SSD
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 border border-white">
+                        <h6 class="text-primary">Procesadores</h6>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/07.jpg"
+                                            alt="procesador Intel"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            Intel
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                            <div class="col-6">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/09.jpg"
+                                            alt="Procesador AMD"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            AMD
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 border border-white">
+                        <h6 class="text-primary">Placas Base</h6>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/08.jpg"
+                                            alt="placa base amd"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            AMD
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                            <div class="col-6">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/10.jpg"
+                                            alt="placa base intel"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            Intel
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 border border-white">
+                        <h6 class="text-primary">Tarjetas Graficas</h6>
+
+                        <div class="row">
+                            <div class="col-4">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/11.jpg"
+                                            alt="Tarjeta Grafica Nvidia"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            Nvidia
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+
+                            <div class="col-4">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/12.jpg"
+                                            alt="Tarjeta Grafica AMD"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            AMD
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                            <div class="col-4">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow disabled"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/13.jpg"
+                                            alt="Tarjeta Grafica intel"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            Intel
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted">
+                                            Descatalogada
+                                        </p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 border border-white">
+                        <h6 class="text-primary">Memorias Ram</h6>
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/14.jpg"
+                                            alt="Memoria Ram"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            RAM
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 border border-white">
+                        <h6 class="text-primary">Refligeracion</h6>
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/15.jpg"
+                                            alt="Refligeracion"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            Refligeracion
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 border border-white">
+                        <h6 class="text-primary">Fuentes de alimentacion</h6>
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/16.jpg"
+                                            alt="fuentes de alimentacion"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            fuentes de alimentacion
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 border border-white">
+                        <h6 class="text-primary">gabinetes</h6>
+                        <div class="row">
+                            <div class="col-12">
+                                <!-- Item -->
+                                <a
+                                    href="#TiendaDigital"
+                                    class="card border-0 mb-3 mb-md-0 shadow"
+                                >
+                                    <!-- Image -->
+                                    <div class="card-img-top">
+                                        <img
+                                            src="/DigitalGrit/assets/img/17.jpg"
+                                            alt="Gabinete"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+
+                                    <!-- Body -->
+                                    <div class="card-body">
+                                        <!-- Title -->
+                                        <h4 class="card-title text-white">
+                                            gabinetes
+                                        </h4>
+
+                                        <!-- Body -->
+                                        <p class="card-text text-muted"></p>
+                                    </div>
+                                </a>
+                                <!-- / .card -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </Layout>
 
-<style>
-    
-</style>
+<style></style>
