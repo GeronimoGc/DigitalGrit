@@ -2,6 +2,7 @@
 import Footer from '../components/Footer.astro'
 import Topbar from '../components/Topbar.astro'
 import Whatsapp from '../components/Whatsapp.astro'
+import Preloader from '../components/Preloader.astro'
 interface Props {
     title: string
 }
@@ -45,10 +46,11 @@ const { title } = Astro.props
         <link rel="stylesheet" href="/DigitalGrit/assets/css/theme.min.css" />
         <!-- <link rel="stylesheet" href="/DigitalGrit/assets/css/style.css" /> -->
     </head>
-    <body>
+    <body class="Scroll-disabled-load">
+        <!-- <Preloader /> -->
         <Topbar />
         <slot />
-		<Whatsapp />
+        <Whatsapp />
         <Footer />
         <!-- JAVASCRIPT
         ================================================== -->
@@ -98,4 +100,5 @@ const { title } = Astro.props
     </body>
 </html>
 
-<style is:global></style>
+<style is:global>
+</style>
