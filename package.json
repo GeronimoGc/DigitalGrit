@@ -1,20 +1,21 @@
 {
-  "name": "digitalgrit",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "deploy": "npm run build && gh-pages -d dist"
-  },
-  "dependencies": {
-    "astro": "^4.1.0"
-  },
-  "devDependencies": {
-    "@types/jquery": "^3.5.29",
-    "gh-pages": "^6.1.1"
-  }
+    "name": "digitalgrit",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro",
+        "deploy": "npm run build && npm run deploy-gh-pages",
+        "deploy-gh-pages": "git checkout gh-pages && git pull origin gh-pages && git add dist/* && git commit -m 'update' && git push origin gh-pages && git checkout -"
+    },
+    "dependencies": {
+        "astro": "^4.1.0"
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.5.29",
+        "gh-pages": "^6.1.1"
+    }
 }
