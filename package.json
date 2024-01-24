@@ -9,7 +9,7 @@
         "preview": "astro preview",
         "astro": "astro",
         "deploy": "npm run build && npm run deploy-gh-pages",
-        "deploy-gh-pages": "git checkout gh-pages && git pull origin gh-pages && git add -f dist/* && git commit -m 'update' && git push origin gh-pages && git checkout -"
+        "deploy-gh-pages": "npm run check-gh-pages && git checkout gh-pages && rm -rf * && cp -r dist/* . && git add . && git commit -m 'update' && git push origin gh-pages && git checkout -"
     },
     "dependencies": {
         "astro": "^4.1.0"
